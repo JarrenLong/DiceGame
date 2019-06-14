@@ -17,7 +17,7 @@ namespace DiceGame
       decimal startRandNum = 1;
       decimal endRandNum = 6;
       bool intRandsOnly = true;
-      int numIterations = 10000;
+      int numIterations = 100;
       Random r = new Random();
 
       List<Iteration> iterations = new List<Iteration>();
